@@ -1,0 +1,14 @@
+@use '../globals/colors.scss' as *;
+@use '../util/functions.scss' as *;
+
+
+.footer__credits{
+  padding-top: rem(30);
+  padding-bottom: rem(30)
+}
+
+.h3__footer{
+  font-size: rem(16);
+  font-weight: 400;
+  color: $gray_light;
+}

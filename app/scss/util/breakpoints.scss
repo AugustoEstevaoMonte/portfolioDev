@@ -1,0 +1,90 @@
+@use '../util/functions.scss' as *;
+
+@media (max-width: em(575.98)) 
+{
+	.span__aboutme_socialIcon,.span__aboutme_curriculum
+	{
+  	padding: 0 20px;
+	}
+	.span__aboutme_downloadIcon,.span__aboutme_email
+	{
+  	padding: 0 20px;
+	}
+
+	.div__boxFoto
+	{
+  	max-width: 100%;
+  	max-height: 100%;
+	}
+	.btn__aboutme_authorCurriculum>.span__aboutme_curriculum{
+		font-size: 0.8rem;
+	}
+	.btn__aboutme_authorEmail>.span__aboutme_email{
+		font-size: 0.8rem;
+	}
+
+	.btn__introductory_socialLinkedin>.span__introductory_mediaName{
+		font-size: 0.8rem;
+	}
+	.btn__introductory_socialGithub>.span__introductory_mediaName{
+		font-size: 0.8rem;
+	}
+
+	.ul__experience_list>.list-group-item{
+		font-size: 0.9rem;
+	}
+	.h2__staticTitle{
+		font-size: 1.4rem;
+	}
+	.time__staticTime{
+		font-size: 0.9rem;
+	}
+}
+
+// Small devices (landscape phones, 576px and up)
+@media (min-width: em(576)) 
+{
+	.span__aboutme_downloadIcon,.span__aboutme_email
+	{
+  	padding: 0 24px;
+	}
+
+	.btn__aboutme_authorCurriculum>.span__aboutme_curriculum{
+		font-size: 1rem;
+	}
+	.btn__aboutme_authorEmail>.span__aboutme_email{
+		font-size: 1rem;
+	}
+
+	.btn__introductory_socialLinkedin>.span__introductory_mediaName{
+		font-size: 1rem;
+	}
+	.btn__introductory_socialGithub>.span__introductory_mediaName{
+		font-size: 1rem;
+	}
+	
+}
+
+// Medium devices (tablets, 768px and up)
+@media (min-width: em(768)) 
+{ 
+	.ul__experience_list>.list-group-item{
+		font-size: 1.125rem;
+	}
+	.div__boxFoto
+	{
+  	max-width: 367px;
+  	max-height: 367px;
+	}
+}
+
+// Large devices (desktops, 992px and up)
+@media (min-width: em(992)) {
+
+}
+
+// X-Large devices (large desktops, 1200px and up)
+@media (min-width: em(1200)) { }
+
+// XX-Large devices (larger desktops, 1400px and up)
+@media (min-width: em(1400)) { }

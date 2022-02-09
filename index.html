@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+	<meta charset="UTF-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<title>Portfólio do Augusto</title>
+	<link rel="stylesheet" href="/vendor/bootstrap.min.css">
+	<link rel="stylesheet" href="/dist/style.css" />
+	<script defer src="/dist/script.js"></script>
+</head>
+
+<body>
+	<header id="home">
+		<nav class="navbar navbar-expand-lg navbar-light nav__bg">
+			<div class="container">
+				<a href="#" class="navbar-brand">Portfólio</a>
+				<button class="navbar-toggler d-flex d-lg-none flex-column justify-content-around" type="button"
+					data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false"
+					aria-label="Toggle navigation">
+					<span class="toggler-icon top-bar"></span>
+					<span class="toggler-icon middle-bar"></span>
+					<span class="toggler-icon bottom-bar"></span>
+				</button>
+				<div class="collapse navbar-collapse" id="navbarNav">
+					<ul class="navbar-nav ms-auto">
+						<li class="nav-item">
+							<a class="nav-link active" aria-current="page" href="#home">Home</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="#about">Sobre mim</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="#experience">Experiência</a>
+						</li>
+						<li class="nav-item">
+							<a href="#project" class="nav-link">Projetos</a>
+						</li>
+
+					</ul>
+				</div>
+			</div>
+		</nav>
+
+	</header>
+
+	<section class="section__espiral">
+		<div class="container">
+			<div class="row">
+				<div class="col-12 col-lg-7 div__introductory_margintopCustom">
+					<p class="p__introduction_myself">Olá, eu sou</p>
+					<h1 class="h1__introduction_myname">Augusto Estevão</h1>
+					<p class="p__introduction_role">desenvolvedor front-end & back-end.</p>
+				</div>
+
+				<div class="col-12 mt-5 d-flex">
+
+					<button class="btn__introductory_socialLinkedin">
+						<span class="span__introductory_socialIcon">
+							<ion-icon name="logo-linkedin"></ion-icon>
+						</span>
+						<span class="span__introductory_mediaName"><a target="_blank"
+								href="https://www.linkedin.com/in/augustoestevaomonte/">Linkedin</a></span>
+					</button>
+
+					<button class="btn__introductory_socialGithub">
+						<span class="span__introductory_socialIcon">
+							<ion-icon name="logo-github"></ion-icon>
+						</span>
+						<span class="span__introductory_mediaName"><a target="_blank"
+								href="https://github.com/AugustoEstevaoMonte">Github</a></span>
+					</button>
+
+				</div>
+
+				<div class="bg__espiral d-lg-none">
+					<div></div>
+				</div>
+
+				<div class="d-none d-lg-block">
+					<img src="/images/espiral.svg" alt="" class="image__espiral img-fluid">
+				</div>
+
+
+
+			</div>
+		</div>
+	</section>
+
+	<section id="about" class="section__aboutmeBgDark">
+		<div class="container">
+			<div class="row">
+
+				<div class="col-12 col-md-5 div__marginPhotoCustom">
+					<div class="div__boxFoto">
+						<img src="/images/metaverse_AuthorPhoto.png" alt="Foto de Augusto Estevão avatar do Metaverse"
+							class="img-fluid img__authorPhoto">
+					</div>
+				</div>
+
+				<div class="col div__marginPhotoCustom">
+					<h2 class="h2__aboutme_title">Sobre Mim</h2>
+					<p class="p__aboutme_authorLocation">Brasília, Distrito Federal</p>
+					<p class="p__aboutme_authorDescription">Atualmente cursando ciência da computação na universidade católica de
+						brasília e tento o meu máximo para me especializar em tecnologias front-end e back-end almejando assim me
+						tornar um fullstack com PHP, Wordpress.</p>
+
+					<div class="mt-5 d-flex justify-content-start div__aboutme_marginBottomCustom">
+						<button class="btn__aboutme_authorCurriculum">
+							<span class="span__aboutme_downloadIcon">
+								<ion-icon name="cloud-download-outline"></ion-icon>
+							</span>
+							<span class="span__aboutme_curriculum"><a href="/images/Curriculo_devAugusto.pdf">Currículo</a></span>
+						</button>
+
+						<button class="btn__aboutme_authorEmail">
+							<span class="span__aboutme_socialIcon">
+								<ion-icon name="mail-outline"></ion-icon>
+							</span>
+							<span class="span__aboutme_email"><a href="mailto:augusto-estevao@hotmail.com">E-mail</a></span>
+						</button>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<section id="experience" class="section__experience">
+		<div class="container">
+			<div class="row">
+				<div class="col-lg-3">
+					<h2 class="h2__experience_title">Experiência</h2>
+					<ul class="list-group ul__experience_list">
+						<li class="list-group-item li__experience listClick">Conselho Federal de Medicina</li>
+						<li class="list-group-item li__experience">Job Space Creative</li>
+						<li class="list-group-item li__experience">Monitor de Algoritmos</li>
+					</ul>
+				</div>
+
+				<div class="col-lg-9 col-lg-6 mt-4">
+					<div class="d-flex flex-wrap justify-content-between">
+							<h2 class="h2__staticTitle">Estágio em web</h2>
+							<time class="time__staticTime">Jun de 2021 - Out de 2021</time>
+					</div>
+					<p class="p__staticJobName">Conselho Federal de Medicina</p>
+					<p class="p__staticJobText">Desenvolvi uma aplicação do 0, que ajudou médicos e advogados a encontrem
+						informações.Desenvolvi habilidades de Design (UI/UX), em que me auxiliou a montar a aplicação para os
+						médicos e advogados.Me especializei em Wordpress, PHP, front-end e design.</p>
+				</div>
+
+			</div>
+		</div>
+	</section>
+
+
+	<section id="project" class="section__project_cust">
+		<div class="container">
+			<div class="row">
+				<h2 class="h2__projects_title mt-5">Projetos</h2>
+
+				<div class="col-12 col-lg-6">
+					<div class="teste" style="max-width: 560px">
+						<img src="/images/caravan2.png" class="card-img-top" alt="...">
+						<div class="card-body">
+							<h5 class="card-title h5__projects_title">Caravan</h5>
+							<p class="card-text p__projects_description">Um projeto de uma agência de viagens, moderna e com interface simples.</p>
+							<p class="p__projects_tecnology mt-4">#html #bootstrap5 #css #js</p>
+							
+							<a target="_blank" href="https://augustoestevaomonte.github.io/CaravanWebsite/" class="btn__projects_links">
+								<span class="span__projects_linkIcon"><ion-icon name="link-outline"></ion-icon></span>
+								<span class="span__projects_visualize">Visualizar</span>
+							</a>
+						</div>
+					</div>
+				</div>
+
+				<div class="col-12 col-lg-6">
+					<div class="teste" style="max-width: 560px;">
+						<img src="/images/pae.png" class="card-img-top" alt="...">
+						<div class="card-body">
+							<h5 class="card-title  h5__projects_title">Processo Administrativo Eletrônico</h5>
+							<p class="card-text p__projects_description">Projeto para o Conselho Federal de Medicina, no qual auxiliou médicos e advogados a encontrarem informações pertinentes a pautas e processos</p>
+							<p class="p__projects_tecnology mt-4">#php #wordpressCMS #html #sass #gulp.js #js #vlibras</p>
+							<a target="_blank" href="https://github.com/AugustoEstevaoMonte/paePortal" class="btn__projects_links">
+								<span class="span__projects_linkIcon"><ion-icon name="link-outline"></ion-icon></span>
+								<span class="span__projects_visualize">Visualizar</span>
+							</a>
+						</div>
+					</div>
+				</div>
+
+				<div class="col-12 col-lg-6 mt-5">
+					<div class="teste" style="max-width: 560px">
+						<img src="/images/sunnyside2.png" class="card-img-top" alt="...">
+						<div class="card-body">
+							<h5 class="card-title h5__projects_title">Sunny Side Agency</h5>
+							<p class="card-text p__projects_description">Projeto de uma agência de marketing, com um design único, bonito e chamativo.</p>
+							<p class="p__projects_tecnology mt-4">#html #bootstrap5 #css #js #gulp.js</p>
+							<a target="_blank" href="https://github.com/AugustoEstevaoMonte/Sunny" class="btn__projects_links">
+								<span class="span__projects_linkIcon"><ion-icon name="link-outline"></ion-icon></span>
+								<span class="span__projects_visualize">Visualizar</span>
+							</a>
+						</div>
+					</div>
+				</div>
+
+				<div class="col-12 col-lg-6 mt-5">
+					<div class="teste" style="max-width: 560px">
+						<img src="/images/portfolio.png" class="card-img-top" alt="...">
+						<div class="card-body">
+							<h5 class="card-title h5__projects_title">Portfólio</h5>
+							<p class="card-text p__projects_description">Site de portfólio do desenvolvedor Augusto Estevão no qual estão armazenados todas as fotos de seus projetos.</p>
+							<p class="p__projects_tecnology mt-4">#html #bootstrap5 #css #js #gulp.js</p>
+							<a href="#" class="btn__projects_links">
+								<span class="span__projects_linkIcon"><ion-icon name="link-outline"></ion-icon></span>
+								<span class="span__projects_visualize">Visualizar</span>
+							</a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+
+
+	<footer class="footer__credits">
+			<div class="container">
+					<div class="row">
+							<div class="col-12">
+									<div class="d-flex justify-content-around">
+											<h3 class="h3__footer mt-3">@2022 - Augusto Estevão</h3>
+											<h3 class="h3__footer mt-3">Powered By<a target="_blank" href="https://www.instagram.com/iuricode/"><img src="/images/iuricode.svg" alt=""></a></h3>
+									</div>
+							</div>
+					</div>
+			</div>
+	</footer>
+
+
+
+	<!--Scripts do bootstrap-->
+	<script src="/vendor/bootstrap.min.js"></script>
+	<!--Ionicons scripts-->
+	<script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+	<script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+</body>
+
+</html>

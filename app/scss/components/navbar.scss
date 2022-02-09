@@ -1,0 +1,21 @@
+@use '../globals/colors.scss' as *;
+@use '../util/functions.scss' as *;
+
+.navbar-brand
+{
+  color: $blue_yuri !important;
+  font-weight: 500;
+  font-size: rem(24);
+}
+
+.nav__bg{
+  background-color: $dark;
+}
+
+.nav-item > .nav-link{
+  color: $gray_light !important;
+  margin-right: rem(20);
+  margin-left: rem(20);
+  font-size: rem(18);
+  font-weight: 500;
+}

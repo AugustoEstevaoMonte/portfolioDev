@@ -1,0 +1,113 @@
+@use '../globals/colors.scss' as *;
+@use '../util/functions.scss' as *;
+
+.section__aboutmeBgDark{
+  background-color: $dark_200;
+  margin-top: rem(100);
+  margin-bottom: rem(100);
+}
+
+.div__boxFoto{
+  background-color: $dark;
+  border-radius: rem(4);
+  border-left: 4px solid $blue_yuri;
+  border-radius: rem(4);
+}
+
+.div__marginPhotoCustom{
+  margin-top: rem(99);
+}
+
+.img__authorPhoto{
+  width: 100%;
+  height: 100%;
+}
+
+
+.h2__aboutme_title{
+  font-weight: 600;
+  font-size: rem(26);
+  color: white;
+  text-transform: uppercase;
+}
+
+.p__aboutme_authorLocation{
+  font-size: rem(21);
+  color: white;
+  font-weight: 500;
+  line-height: 5;
+}
+
+.p__aboutme_authorDescription{
+  font-weight: 300;
+  font-size: rem(16);
+  color: $gray_light;
+}
+
+.btn__aboutme_authorCurriculum{
+  display: inline-flex !important;
+  padding: 0;
+  height: rem(50);
+  outline: none;
+  border-radius: rem(5);
+  overflow: hidden;
+  margin-right: rem(20);
+  box-shadow: 0 0 6px 0 rgba(157, 96, 212, 0.5);
+  border: solid 3px transparent;
+  background-image: linear-gradient(rgba(210, 64, 116, 1),rgba(101, 24, 180, 1)), linear-gradient(101deg, #D24074, #6518B4);
+  background-origin: border-box;
+  background-clip: content-box, border-box;
+  box-shadow: 2px 1000px 1px $dark inset;
+  & > .span__aboutme_curriculum
+  {
+    font-weight: 500;
+    padding-right: rem(24);
+    padding-left: 0;
+    & > a{
+      color: white;
+    }
+  }
+}
+
+.btn__aboutme_authorEmail
+{
+  display: inline-flex !important;
+  padding: 0;
+  height: rem(50);
+  outline: none;
+  border-radius: rem(5);
+  overflow: hidden;
+  margin-right: rem(20);
+  box-shadow: 0 0 6px 0 rgba(157, 96, 212, 0.5);
+  border: solid 3px transparent;
+  background-image: linear-gradient(rgba(147, 88, 247, 1), rgba(16, 215, 226, 1)), linear-gradient(101deg, #9358F7, #10D7E2);
+  background-origin: border-box;
+  background-clip: content-box, border-box;
+  box-shadow: 2px 1000px 1px $dark inset;
+  & > .span__aboutme_email
+  {
+    font-weight: 500;
+    padding-right: rem(24);
+    padding-left: 0;
+    & > a{
+      color: white;
+    }
+  }
+}
+
+.span__aboutme_socialIcon,.span__aboutme_curriculum{
+  display: inline-flex;
+  align-items: center;
+  padding: 0 24px;
+  height: 100%;
+}
+
+.span__aboutme_downloadIcon,.span__aboutme_email{
+  display: inline-flex;
+  align-items: center;
+  height: 100%;
+}
+
+.div__aboutme_marginBottomCustom{
+  margin-bottom: rem(99);
+}

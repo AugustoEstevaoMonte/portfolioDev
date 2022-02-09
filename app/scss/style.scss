@@ -1,0 +1,18 @@
+@use 'globals' as *;
+@use 'components' as *;
+@use 'components/navbar_toggler.scss';
+@use 'util/functions.scss' as *;
+
+html{
+
+  scroll-behavior: smooth !important;
+}
+
+body
+{
+  font-family: 'Inter', sans-serif;
+  background-color: $dark;
+}
+
+
+/*Navbar CSS End*/
